@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./index.html?redirected=true" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=/#/" />
+    <script>
+      var redirect = window.location.href.replace(window.location.origin, '');
+      window.location.href = window.location.origin + '/#' + redirect;
+    </script>
   </head>
+  <body></body>
 </html>
